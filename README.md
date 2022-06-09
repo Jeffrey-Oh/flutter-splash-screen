@@ -6,4 +6,4 @@
 - [x] Asset 추가하기
 - [x] StatelessWidget 사용해보기
 - [x] Column 위젯 사용해보기
-- [ ] Hex Code 색상 사용해보기
+- [x] Hex Code 색상 사용해보기

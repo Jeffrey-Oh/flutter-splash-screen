@@ -2,7 +2,7 @@ import 'package:flutter/material.dart';
 
 void main() {
   runApp(
-    MaterialApp(home: HomeScreen()),
+    MaterialApp(debugShowCheckedModeBanner: false, home: HomeScreen()),
   );
 }
 
@@ -10,7 +10,7 @@ class HomeScreen extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      backgroundColor: Colors.white,
+      backgroundColor: Color(0xFFA5BFB6),
       body: Column(
         mainAxisAlignment: MainAxisAlignment.center,
         children: [
@@ -19,7 +19,7 @@ class HomeScreen extends StatelessWidget {
             width: 600,
           ),
           CircularProgressIndicator(
-            color: Colors.black,
+            color: Colors.white,
           ),
         ],
       ),
