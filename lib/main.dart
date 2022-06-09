@@ -16,6 +16,7 @@ class HomeScreen extends StatelessWidget {
         children: [
           Image.asset(
             'assets/img/logo.png',
+            width: 600,
           ),
           CircularProgressIndicator(
             color: Colors.black,
